@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scoreazy Edutech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Scoreazy</div>
+    <a href="#enroll" class="btn-glow">Enroll Now</a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="vid.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="hero-text">
+      <h1>Confidence Building<br><span>for Grades 3–5</span></h1>
+      <p>Transform your child’s self-esteem and communication with this engaging microcourse.</p>
+    <a href="#enroll" class="btn-primary">Join for Free</a>
+  </div>
+</header>
+
+
+  <!-- COUNTDOWN TIMER -->
+  <section class="countdown">
+    <h2>Starts In</h2>
+    <div class="timer">
+      <div><span id="days">00</span><small>Days</small></div>
+      <div><span id="hours">00</span><small>Hours</small></div>
+      <div><span id="minutes">00</span><small>Min</small></div>
+      <div><span id="seconds">00</span><small>Sec</small></div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits">
+    <h2>What You'll Learn</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>📘 Rapid Subject Revision</h3>
+        <p>Cover Science, Math, and SST fundamentals in 7 days.</p>
+      </div>
+      <div class="card">
+        <h3>🎯 Exam Strategy</h3>
+        <p>Time management and score-maximizing tips.</p>
+      </div>
+      <div class="card">
+        <h3>🧠 Mind Tricks</h3>
+        <p>Focus techniques, memory hacks, and confidence boosters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial-carousel">
+    <h2>What Students & Parents Say</h2>
+    <div class="carousel-container">
+      <div class="carousel-track" id="testimonialTrack">
+        <div class="testimonial-card">
+          👧
+          <p>“Scoreazy helped me revise 3 subjects in just a week. Loved the tricks!”</p>
+          <span>– Rishi, Class 10 Student</span>
+        </div>
+        <div class="testimonial-card">
+          🧑
+          <p>“My daughter’s confidence shot up before boards. Scoreazy made revision fun.”</p>
+          <span>– Pooja, Parent</span>
+        </div>
+        <div class="testimonial-card">
+          🦸‍♀️
+          <p>“The live sessions were crisp and to the point. Highly recommended!”</p>
+          <span>– Aarav, Class 10 Topper</span>
+        </div>
+        <div class="testimonial-card">
+          👦
+          <p>“The subject-wise shortcuts helped me save time in the exam. Super helpful!”</p>
+          <span>– Meena, Class 10 Student</span>
+        </div>
+        <div class="testimonial-card">
+          👱‍♂️
+          <p>“One of the best free bootcamps online! Worth every session.”</p>
+          <span>– Rohit, Parent</span>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button onclick="prevTestimonial()">❮</button>
+        <button onclick="nextTestimonial()">❯</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h2>FAQs</h2>
+    <details>
+      <summary>Is this really free?</summary>
+      <p>Yes! This 7-day program is free for a limited time.</p>
+    </details>
+    <details>
+      <summary>What time are the sessions?</summary>
+      <p>Daily 6 PM – 7 PM live sessions with recordings available.</p>
+    </details>
+  </section>
+
+  <!-- ENROLL CTA -->
+  <section class="enroll" id="enroll">
+    <h2>Join the Free Bootcamp</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <button type="submit" class="btn-glow">Join Now</button>
+    </form>
+    <p id="thankyou" class="hidden">✅ You’ve been added to the list!</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Scoreazy | Made by Mohammed Tabrez</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
