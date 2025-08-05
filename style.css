@@ -90,6 +90,18 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+.hero-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  /* text-decoration: underline; */
+  border: 3px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 9px;
+  color:#ff0505;
+  cursor: pointer;
+}
+
 
 .hero-text p {
   font-size: 1.2rem;
