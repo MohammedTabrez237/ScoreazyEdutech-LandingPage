@@ -1,6 +1,8 @@
 # Scoreazy Edutech - Confidence Building Microcourse
 
 A modern, responsive landing page for a free educational bootcamp designed for students in grades 3-5. This project showcases confidence-building techniques and subject revision strategies through an engaging web experience.
+##Link
+https://mohammedtabrez237.github.io/ScoreazyEdutech-LandingPage/
 
 ## 🎯 Project Overview
 
